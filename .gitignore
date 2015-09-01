@@ -10,3 +10,40 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+
+
+
+.classpath
+.project
+.settings
+.java-version
+target
+*~
+.idea/
+*.iml
+*.ipr
+*.iws
+*.log
+.DS_Store
+atlassian-ide-plugin.xml
+
+web/.surefire*
+
+# Fichiers associés à la release et à la montée de version
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+dependencies.txt
+
+.gradle
+lib
+
+#Fichiers de traduction récupèrés depuis wti
+**/resources/com/amo/i18n/*_[a-z][a-z].properties
+**/resources/messages/*_[a-z][a-z].properties
+
+**/src/main/filters/*
