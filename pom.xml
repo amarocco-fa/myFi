@@ -12,6 +12,7 @@
 
     <modules>
         <module>core</module>
+        <module>web</module>
         <module>test</module>
     </modules>
 
@@ -22,8 +23,8 @@
     </properties>
 
     <scm>
-        <connection>scm:git:ssh://git@bitbucket.org:IknowU/financial.git</connection>
-        <developerConnection>scm:git:ssh://git@bitbucket.org:IknowU/financial.git</developerConnection>
+        <connection>scm:git:ssh://git@github.com:amarocco-fa/myFi.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:amarocco-fa/myFi.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
