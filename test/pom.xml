@@ -85,7 +85,7 @@
 
     <build>
         <testSourceDirectory>${basedir}/src/test/kotlin</testSourceDirectory>
-        <plugins>
+        <!--<plugins>
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
@@ -117,7 +117,7 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
     <!--<build>
         <sourceDirectory>src/main/</sourceDirectory>
         <testSourceDirectory>src/test/</testSourceDirectory>
@@ -164,9 +164,9 @@
                 </classpathContainers>
             </configuration>
         </plugin>
-    </plugins>
+    </plugins>-->
 </build>
-<reporting>
+<!--<reporting>
     <plugins>
         <plugin>
             <groupId>org.scala-tools</groupId>
